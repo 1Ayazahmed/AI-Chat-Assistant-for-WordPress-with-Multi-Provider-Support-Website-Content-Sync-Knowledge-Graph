@@ -80,4 +80,20 @@
 			</a>
 		</div>
 	</div>
+
+	<div class="ceac-card ceac-creator-card">
+		<div class="ceac-creator-inner">
+			<img class="ceac-creator-avatar" src="https://avatars.githubusercontent.com/u/93036472?v=4" alt="Ayaz Ahmed" />
+			<div class="ceac-creator-info">
+				<h3><?php esc_html_e( 'Created by', 'ceac' ); ?> Ayaz Ahmed</h3>
+				<p><?php esc_html_e( 'Developer & WordPress enthusiast', 'ceac' ); ?></p>
+				<a href="https://github.com/1Ayazahmed" target="_blank" rel="noopener noreferrer" class="ceac-creator-link">
+					<span class="dashicons dashicons-external"></span> GitHub Profile
+				</a>
+				<a href="https://github.com/1Ayazahmed/AI-Chat-Assistant-for-WordPress-with-Multi-Provider-Support-Website-Content-Sync-Knowledge-Graph" target="_blank" rel="noopener noreferrer" class="ceac-star-link">
+					<span class="dashicons dashicons-star-filled"></span> <?php esc_html_e( 'Support me by giving a star on GitHub', 'ceac' ); ?>
+				</a>
+			</div>
+		</div>
+	</div>
 </div>
