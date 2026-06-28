@@ -22,6 +22,6 @@ class CEAC_Elementor_Widget extends \Elementor\Widget_Base {
 	}
 
 	protected function render() {
-		echo do_shortcode( '[ceac_chatbot inline="true"]' );
+		echo do_shortcode( '[ai_assistant inline="true"]' );
 	}
 }

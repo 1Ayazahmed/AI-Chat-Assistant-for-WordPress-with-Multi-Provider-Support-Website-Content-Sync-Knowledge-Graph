@@ -30,6 +30,7 @@ class CEAC_Plugin {
 		add_action( 'ceac_sync_content', array( 'CEAC_Content_Indexer', 'full_sync' ) );
 		add_action( 'ceac_purge_logs', array( 'CEAC_Security', 'purge_old_logs' ) );
 		add_shortcode( 'ceac_chatbot', array( 'CEAC_Frontend', 'shortcode' ) );
+		add_shortcode( 'ai_assistant', array( 'CEAC_Frontend', 'shortcode' ) );
 		add_action( 'elementor/widgets/register', array( $this, 'register_elementor_widget' ) );
 		add_action( 'wp_ajax_ceac_get_conversation', array( 'CEAC_Admin', 'ajax_get_conversation' ) );
 

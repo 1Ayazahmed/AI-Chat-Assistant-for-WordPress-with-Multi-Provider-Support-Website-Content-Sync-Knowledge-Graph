@@ -1,90 +1,145 @@
-# AI Assistant with Knowledge Graph
+<p align="center">
+  <img src="01.png" alt="AI Assistant with Knowledge Graph" width="600" />
+</p>
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue)](https://wordpress.org)
-[![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue)](https://php.net)
+<h1 align="center">AI Assistant with Knowledge Graph</h1>
 
-> A full-featured enterprise WordPress AI chatbot plugin with knowledge graph visualization, multi-provider AI support, website content synchronization, analytics, compliance guardrails, and full branding customization.
+<p align="center">
+  <strong>The open-source, self-hostable WordPress AI chatbot with knowledge graph visualization, multi-provider AI support, and full branding customization.</strong>
+</p>
 
----
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#docs">Docs</a> •
+  <a href="#contributing">Contributing</a>
+</p>
 
-## Features
+<p align="center">
+  <a href="https://github.com/1Ayazahmed/AI-Chat-Assistant-for-WordPress-with-Multi-Provider-Support-Website-Content-Sync-Knowledge-Graph/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v2-blue.svg" alt="License: GPL v2"></a>
+  <a href="https://wordpress.org"><img src="https://img.shields.io/badge/WordPress-6.0%2B-blue" alt="WordPress"></a>
+  <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-7.4%2B-blue" alt="PHP"></a>
+  <a href="https://github.com/1Ayazahmed"><img src="https://img.shields.io/badge/Created%20by-Ayaz%20Ahmed-blue" alt="Author"></a>
+</p>
 
-### 🤖 Multi-Provider AI Support
-Works with **OpenAI**, **Anthropic**, **Groq**, **Together AI**, **Ollama** (local), **LM Studio**, or any OpenAI-compatible API. Dynamic model fetching — no hardcoded model lists.
+<br />
 
-### 🧠 Knowledge Graph
-Interactive Obsidian-style graph visualization showing relationships between your website content, user intents, and unanswered queries. See how your knowledge is connected.
-
-### 📄 Website Content Sync
-Automatically indexes WordPress pages and posts into a searchable knowledge base. The AI answers visitors using your actual content.
-
-### 🎨 Theme Sync
-Auto-detects your WordPress theme colors, fonts, and styling — the chatbot looks native on your site without extra configuration.
-
-### 🌐 Multi-Language
-Full English and Arabic support with auto-language detection, RTL layout, and contextual greetings.
-
-### 📊 Analytics
-Track chat volume, resolution rate, token usage, top queries, user intents, peak hours, and estimated cost. Export data to CSV.
-
-### 🛡️ Compliance
-AML guardrails, PII detection, configurable log retention, cookie consent (GDPR/CCPA/UAE PDPL), and complete audit trail.
-
-### 🏷️ White-Label Branding
-Customize assistant name, brand name, logo, welcome messages, header title, footer text, and colors — all from the admin panel.
+> **100% open source** — no vendor lock-in, no SaaS fees, no data leaving your server. Self-host on your own WordPress infrastructure with full control and transparency.
 
 ---
 
-## Screenshots
+## 👀 See It In Action
 
-| Dashboard Overview | Knowledge Graph |
+| Dashboard & Setup | Knowledge Graph |
 |:---:|:---:|
 | ![Dashboard](01.png) | ![Knowledge Graph](02.png) |
 
 ---
 
-## Installation
+## 🚀 Quick Start
 
-1. **Upload** the plugin folder to `/wp-content/plugins/` and activate
-2. **Configure AI Provider** — Go to **AI Assistant > AI Provider**, select your provider (OpenAI, Anthropic, Groq, etc.) and enter your API key
-3. **Fetch Models** — Click "Fetch Models" to load available models from your provider
-4. **Sync Content** — Go to **AI Assistant > Dashboard** and click "Sync Website Content" to index your pages and posts
-5. **Customize** — Configure widget appearance, greetings, branding, and business hours under **AI Assistant > Widget Settings**
-6. **Go Live** — The chatbot appears automatically, or embed inline via shortcode/block/Elementor
+```bash
+# 1. Upload the plugin folder to /wp-content/plugins/ and activate via WordPress admin
 
-## Embedding Options
+# 2. Go to AI Assistant > AI Provider, enter your API key (OpenAI, Anthropic, Groq, etc.)
+# 3. Click "Fetch Models" to load available models
+# 4. Go to Dashboard and click "Sync Website Content"
+# 5. Customize under AI Assistant > Widget Settings
+# 6. Done — your chatbot is live!
+```
 
-- **Auto-widget** — Appears as a floating chat bubble on all pages (configurable)
-- **Shortcode** — `[ceac_chatbot]` for inline embedding
-- **Gutenberg Block** — Search "AI Assistant Chatbot" in the block editor
-- **Elementor Widget** — Search "AI Assistant Chatbot" in Elementor widgets
+**No API keys needed to test the UI** — the widget, knowledge graph, and dashboard all work without configuration. Just add your API key when you're ready to go live.
 
-## Environment Variables
+---
 
-| Variable | Description |
-|----------|-------------|
-| `CEAC_API_KEY` | Override the API key from settings (useful for CI/CD) |
+## ✨ Features
 
-## Requirements
+### 🧠 Knowledge Graph
+Interactive graph visualization showing relationships between your website content, user intents, and unanswered queries. Identify content gaps at a glance.
+
+### 🤖 Multi-Provider AI
+Works with **OpenAI**, **Anthropic**, **Groq**, **Together AI**, **Ollama** (local), **LM Studio**, or any OpenAI-compatible API. Dynamic model fetching — switch providers anytime.
+
+### 📄 Website Content Sync
+Automatically indexes WordPress pages and posts into a searchable knowledge base. The AI answers visitors using **your actual content** — not generic training data.
+
+### 🎨 Theme Sync
+Auto-detects your WordPress theme colors, fonts, and styling. The chatbot looks native on your site with zero extra configuration.
+
+### 🌐 Multi-Language
+Full **English** and **Arabic** support with auto-language detection, RTL layout, and contextual greetings per page.
+
+### 📊 Analytics
+Track chat volume, resolution rate, token usage, top queries, user intents, peak hours, and estimated cost. Export data to CSV.
+
+### 🛡️ Compliance
+AML guardrails, PII detection, configurable log retention, cookie consent (GDPR / CCPA / UAE PDPL), and complete audit trail.
+
+### 🏷️ White-Label Branding
+Customize assistant name, brand name, logo, welcome messages, header title, footer text, and accent colors — all from the admin panel. No hardcoded branding.
+
+---
+
+## 📋 Embedding Options
+
+| Method | How |
+|--------|-----|
+| **Floating Widget** | Auto-appears on all pages (configurable position, triggers, business hours) |
+| **Shortcode** | `[ai_assistant]` — embed inline anywhere |
+| **Gutenberg Block** | Search "AI Assistant Chatbot" in the block editor |
+| **Elementor Widget** | Search "AI Assistant Chatbot" in Elementor widgets |
+
+---
+
+## 🔧 Requirements
 
 - WordPress 6.0+
 - PHP 7.4+
 - A valid API key from any OpenAI-compatible provider
 
-## Changelog
+---
 
-### 1.0.0
-- Initial release — AI chatbot with knowledge graph, theme sync, multi-provider support, analytics, compliance, and full branding customization
+## 📚 Documentation
+
+Full documentation covering setup, configuration, API integration, and customization is available in the [GitHub Wiki](https://github.com/1Ayazahmed/AI-Chat-Assistant-for-WordPress-with-Multi-Provider-Support-Website-Content-Sync-Knowledge-Graph/wiki).
+
+### Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `CEAC_API_KEY` | Override the API key from settings (useful for CI/CD or managed hosting) |
 
 ---
 
-## Support
+## 🤝 Contributing
 
-- ⭐ **Star this repo** if you find it useful
-- 🐛 [Open an issue](https://github.com/1Ayazahmed/AI-Chat-Assistant-for-WordPress-with-Multi-Provider-Support-Website-Content-Sync-Knowledge-Graph/issues) for bugs or feature requests
-- 👨‍💻 Created by [Ayaz Ahmed](https://github.com/1Ayazahmed)
+We love contributions! This plugin is 100% open source and we intend to keep it that way.
 
-## License
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-GPL v2 or later
+---
+
+## ⭐ Support
+
+If you find this plugin useful, please consider:
+
+- ⭐ **Starring the repository** on GitHub
+- 🐛 [Opening an issue](https://github.com/1Ayazahmed/AI-Chat-Assistant-for-WordPress-with-Multi-Provider-Support-Website-Content-Sync-Knowledge-Graph/issues) for bugs or feature requests
+- 📢 Sharing it with other WordPress developers
+
+---
+
+## 📄 License
+
+Licensed under the GPL v2 or later license.
+
+---
+
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/1Ayazahmed">Ayaz Ahmed</a>
+</p>

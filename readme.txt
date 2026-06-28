@@ -49,8 +49,8 @@ AI Assistant with Knowledge Graph is a full-featured enterprise WordPress plugin
 
 == Shortcode ==
 
-`[ceac_chatbot]` — Embed the chatbot inline anywhere on your site
-`[ceac_chatbot inline="true"]` — Same as above, forces inline mode
+`[ai_assistant]` — Embed the chatbot inline anywhere on your site
+`[ceac_chatbot]` — Legacy shortcode (still supported for backward compatibility)
 
 == Gutenberg Block ==
 
