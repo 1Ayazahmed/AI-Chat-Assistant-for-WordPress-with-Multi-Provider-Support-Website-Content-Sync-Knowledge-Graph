@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "name": "ceac/chatbot",
+  "title": "AI Assistant Chatbot",
+  "category": "widgets",
+  "icon": "format-chat",
+  "description": "Embed the AI Assistant chatbot inline.",
+  "supports": { "html": false },
+  "textdomain": "ceac",
+  "editorScript": "file:./index.js"
+}

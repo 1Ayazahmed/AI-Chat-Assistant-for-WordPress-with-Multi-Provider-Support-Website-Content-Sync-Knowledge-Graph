@@ -1,0 +1,32 @@
+[
+  {
+    "title": "About Us",
+    "content": "We are a trusted service provider committed to delivering quality solutions to our customers. Our team is dedicated to providing excellent support and service.",
+    "category": "company",
+    "keywords": "about, company, services, information"
+  },
+  {
+    "title": "Our Services",
+    "content": "We offer a range of services designed to meet your needs. Our platform provides reliable, secure, and efficient solutions with full regulatory compliance.",
+    "category": "services",
+    "keywords": "services, solutions, platform, reliable, secure, compliance"
+  },
+  {
+    "title": "Compliance and Security",
+    "content": "We maintain comprehensive compliance and security programs aligned with applicable regulations. All customers undergo verification and ongoing monitoring.",
+    "category": "compliance",
+    "keywords": "compliance, security, verification, monitoring, regulatory"
+  },
+  {
+    "title": "Contact and Support",
+    "content": "Contact us through our website contact form, email support, or by visiting our offices during business hours. Our team is ready to assist you.",
+    "category": "contact",
+    "keywords": "contact, support, phone, email, hours, help, office, business hours"
+  },
+  {
+    "title": "Rate Information",
+    "content": "Rates and fees displayed on our website are indicative and updated periodically. For confirmed rates and large transactions, please contact us directly.",
+    "category": "rates",
+    "keywords": "rates, fees, pricing, indicative, information"
+  }
+]
