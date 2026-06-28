@@ -155,10 +155,6 @@ STRICT RULES:
 	}
 
 	public static function get_api_key() {
-		$env_key = getenv( 'CEAC_API_KEY' );
-		if ( ! empty( $env_key ) ) {
-			return $env_key;
-		}
 		$key = self::get( 'api_key', '' );
 		return self::decrypt( $key );
 	}

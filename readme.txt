@@ -60,10 +60,6 @@ Search for "AI Assistant Chatbot" in the block editor and add it to any post or 
 
 Search for "AI Assistant Chatbot" in Elementor widgets and drag it onto your page.
 
-== Environment Variables ==
-
-`CEAC_API_KEY` — Override the API key set in settings (useful for CI/CD or managed hosting)
-
 == Changelog ==
 
 = 1.0.0 =

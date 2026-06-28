@@ -104,13 +104,9 @@ Customize assistant name, brand name, logo, welcome messages, header title, foot
 
 Full documentation covering setup, configuration, API integration, and customization is available in the [GitHub Wiki](https://github.com/1Ayazahmed/AI-Chat-Assistant-for-WordPress-with-Multi-Provider-Support-Website-Content-Sync-Knowledge-Graph/wiki).
 
-### Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `CEAC_API_KEY` | Override the API key from settings (useful for CI/CD or managed hosting) |
-
 ---
+
+
 
 ## 🤝 Contributing
 

@@ -45,7 +45,7 @@ if ( ! empty( $settings['api_key'] ) ) {
 							<input type="password" id="ceac-api-key" name="api_key" class="regular-text" value="<?php echo esc_attr( $api_key_display ); ?>" placeholder="sk-..." autocomplete="new-password" />
 							<button type="button" class="button button-secondary ceac-toggle-key" data-target="ceac-api-key"><?php esc_html_e( 'Reveal', 'ceac' ); ?></button>
 						</div>
-						<p class="description"><?php esc_html_e( 'Or set environment variable CEAC_API_KEY for enhanced security', 'ceac' ); ?></p>
+						<p class="description"><?php esc_html_e( 'Your API key is stored encrypted in the database', 'ceac' ); ?></p>
 					</td>
 				</tr>
 				<tr>

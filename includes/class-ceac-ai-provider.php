@@ -126,7 +126,7 @@ class CEAC_AI_Provider {
 		if ( empty( $api_key ) ) {
 			return array(
 				'success' => false,
-				'error'   => __( 'API key not configured. Set it in plugin settings or CEAC_API_KEY environment variable.', 'ceac' ),
+				'error'   => __( 'API key not configured. Please set it in the plugin settings.', 'ceac' ),
 			);
 		}
 
